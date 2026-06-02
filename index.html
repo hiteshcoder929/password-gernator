@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class= "bg-black text-white flex justify-center items-center h-screen">
+    <div class="main bg-blue-400 w-auto p-10 h-auto flex flex-col justify-center items-center rounded-lg">
+        <div class="section1 w-auto rounded-lg">
+            <input type="text"
+             placeholder="password" 
+             class="bg-white text-black p-2 my-4 rounded-l-md w-auto"
+             value=""
+             id="inputText"
+             readonly>
+            <button class="copy bg-blue-700 p-2 my-10 rounded-r-md">copy</button>
+        </div>
+        <div class="section2 flex gap-4 my-8 rounded-lg">
+            <div class="p-4 m-2 bg-emerald-500 rounded-lg">
+                <input type="range"
+                id="inputRange"  value="8" min="6" max="100">
+                <label class="text-white" id="rangeValue">8</label>
+            </div>
+            <div class="number p-4 m-2 bg-emerald-500 rounded-lg">
+                <input type="checkbox"
+                id="inputNum"
+                value=off>
+                <label class="text-white">Number</label>
+            </div>
+            <div class="char p-4 m-2 bg-emerald-500 rounded-lg">
+                <input type="checkbox"
+                id="inputChar"
+                value="off">
+                <label class="text-white">Character</label>
+            </div
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
